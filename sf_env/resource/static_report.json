@@ -1,0 +1,32 @@
+Pylint:
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+PyLizard:
+
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      13      1    111      1      25 __init__@26-50@.\sf_env\sf_env.py
+      23      4    157      2      41 detectnet_callback@52-92@.\sf_env\sf_env.py
+      11      3    105      2      18 scan_callback@94-111@.\sf_env\sf_env.py    
+       2      1     16      1       5 timer_callback@113-117@.\sf_env\sf_env.py
+       5      1     32      1       8 main@119-126@.\sf_env\sf_env.py
+       8      1     59      1      12 __init__@24-35@.\sf_env\test_helper.py
+       8      3     69      2       9 emm_callback@37-45@.\sf_env\test_helper.py
+       5      1     32      1       8 main@47-54@.\sf_env\test_helper.py
+3 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+     77      10.8     2.0       84.2         5     .\sf_env\sf_env.py
+     42       7.0     1.7       53.3         3     .\sf_env\test_helper.py
+      0       0.0     0.0        0.0         0     .\sf_env\__init__.py
+
+===============================================================================================================
+No thresholds exceeded (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100)
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+       119       9.4     1.9       72.6        8            0      0.00    0.00
