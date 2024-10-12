@@ -1,0 +1,28 @@
+"Static Test Report"
+
+
+Your code has been rated at 9.05/10 (previous run: 9.05/10, +0.00)
+
+
+"PyLizard Test Report"
+
+======================================================================================================================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------------------------------------------------------------------------------------------------------------
+      15      1    151      1      24 __init__@13-36@/home/ghost/ros2_ws/sf_master/src/sf_model_city_map/sf_model_city_map/sf_viz_ego.py
+      16      1    108      1      19 create_marker@38-56@/home/ghost/ros2_ws/sf_master/src/sf_model_city_map/sf_model_city_map/sf_viz_ego.py
+      14      3    123      2      23 position_orientation@58-80@/home/ghost/ros2_ws/sf_master/src/sf_model_city_map/sf_model_city_map/sf_viz_ego.py
+      11      1    168      1      16 position_update@82-97@/home/ghost/ros2_ws/sf_master/src/sf_model_city_map/sf_model_city_map/sf_viz_ego.py
+       5      1     32      1       8 main@100-107@/home/ghost/ros2_ws/sf_master/src/sf_model_city_map/sf_model_city_map/sf_viz_ego.py
+1 file analyzed.
+======================================================================================================================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+------------------------------------------------------------------------------------------------------------------------------------------------------
+ 74      12.2      1.4      116.4        5           /home/ghost/ros2_ws/sf_master/src/sf_model_city_map/sf_model_city_map/sf_viz_ego.py
+
+======================================================================================================================================================
+No thresholds exceeded (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100)
+======================================================================================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------------------------------------------------------------------
+        74      12.2     1.4      116.4        5            0      0.00    0.00
