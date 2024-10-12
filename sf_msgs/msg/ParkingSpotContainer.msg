@@ -1,0 +1,1 @@
+ParkingSpot[] available_parking_spots # a list of available parkign spots

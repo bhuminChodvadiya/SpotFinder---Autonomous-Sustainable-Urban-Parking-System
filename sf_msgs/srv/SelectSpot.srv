@@ -1,0 +1,3 @@
+ParkingSpot[] parking_spots
+---
+int32 spot_id
