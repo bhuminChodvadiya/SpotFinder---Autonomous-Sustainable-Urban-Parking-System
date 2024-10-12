@@ -1,0 +1,55 @@
+"Static Test Report"
+
+************* Module sf_path_plan.A_STAR
+sf_path_plan/A_STAR.py:52:0: C0301: Line too long (114/100) (line-too-long)
+sf_path_plan/A_STAR.py:65:0: C0301: Line too long (103/100) (line-too-long)
+sf_path_plan/A_STAR.py:112:0: C0301: Line too long (103/100) (line-too-long)
+sf_path_plan/A_STAR.py:122:0: C0304: Final newline missing (missing-final-newline)
+sf_path_plan/A_STAR.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+sf_path_plan/A_STAR.py:1:0: C0103: Module name "A_STAR" doesn't conform to snake_case naming style (invalid-name)
+sf_path_plan/A_STAR.py:38:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+sf_path_plan/A_STAR.py:72:0: R0914: Too many local variables (17/15) (too-many-locals)
+************* Module sf_path_plan.sf_path_planning
+sf_path_plan/sf_path_planning.py:18:0: C0301: Line too long (104/100) (line-too-long)
+sf_path_plan/sf_path_planning.py:21:0: C0301: Line too long (108/100) (line-too-long)
+sf_path_plan/sf_path_planning.py:41:0: C0301: Line too long (114/100) (line-too-long)
+sf_path_plan/sf_path_planning.py:47:0: C0301: Line too long (106/100) (line-too-long)
+sf_path_plan/sf_path_planning.py:82:50: C0303: Trailing whitespace (trailing-whitespace)
+sf_path_plan/sf_path_planning.py:120:0: C0301: Line too long (129/100) (line-too-long)
+sf_path_plan/sf_path_planning.py:121:0: C0301: Line too long (140/100) (line-too-long)
+sf_path_plan/sf_path_planning.py:123:0: C0301: Line too long (129/100) (line-too-long)
+sf_path_plan/sf_path_planning.py:126:93: C0303: Trailing whitespace (trailing-whitespace)
+sf_path_plan/sf_path_planning.py:129:0: C0301: Line too long (106/100) (line-too-long)
+sf_path_plan/sf_path_planning.py:214:0: C0304: Final newline missing (missing-final-newline)
+sf_path_plan/sf_path_planning.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+sf_path_plan/sf_path_planning.py:11:0: R0902: Too many instance attributes (25/7) (too-many-instance-attributes)
+
+------------------------------------------------------------------
+Your code has been rated at 9.06/10 (previous run: 9.06/10, +0.00)
+
+"Pylizard Test Report"
+
+=========================================================================================================================================================
+  NLOC    CCN   token  PARAM  length  location  
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+      29      3    287      1      48 __init__@12-59@/home/af/ros2_ws/src/sf_master/src/sf_path_plan/sf_path_plan/sf_path_planning.py
+       2      1     12      2       2 egoposition_callback@62-63@/home/af/ros2_ws/src/sf_master/src/sf_path_plan/sf_path_plan/sf_path_planning.py
+       7      3     37      2       9 parkingspots_callback@65-73@/home/af/ros2_ws/src/sf_master/src/sf_path_plan/sf_path_plan/sf_path_planning.py
+      14      4    103      3      17 calculate_distance@76-92@/home/af/ros2_ws/src/sf_master/src/sf_path_plan/sf_path_plan/sf_path_planning.py
+      34      7    354      1      40 select_parking_spot@95-134@/home/af/ros2_ws/src/sf_master/src/sf_path_plan/sf_path_plan/sf_path_planning.py
+      13      2    103      2      15 book_nearest_parking_spot@137-151@/home/af/ros2_ws/src/sf_master/src/sf_path_plan/sf_path_plan/sf_path_planning.py
+      13      3    105      1      13 publish_path@153-165@/home/af/ros2_ws/src/sf_master/src/sf_path_plan/sf_path_plan/sf_path_planning.py
+      10      2     78      1      10 publish_final_route_point@167-176@/home/af/ros2_ws/src/sf_master/src/sf_path_plan/sf_path_plan/sf_path_planning.py
+       8      1     46      1      10 main@178-187@/home/af/ros2_ws/src/sf_master/src/sf_path_plan/sf_path_plan/sf_path_planning.py
+1 file analyzed.
+=========================================================================================================================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+    142      14.4     2.9      125.0         9     /home/af/ros2_ws/src/sf_master/src/sf_path_plan/sf_path_plan/sf_path_planning.py
+
+=========================================================================================================================================================
+No thresholds exceeded (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100)
+=========================================================================================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+       142      14.4     2.9      125.0        9            0      0.00    0.00
