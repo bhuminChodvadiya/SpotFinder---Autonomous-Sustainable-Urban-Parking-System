@@ -1,0 +1,25 @@
+Static Test Report:
+"""
+Your code has been rated at 6.89/10 (previous run: 6.89/10, +0.00)
+"""
+
+Lizard Report:
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      11      1    100      1      15 __init__@10-24@/home/af/ros2_ws/src/sf_master/src/sf_v2x_com/sf_v2x_com/transmitter.py
+      16      3    166      2      29 ego_position_callback@42-70@/home/af/ros2_ws/src/sf_master/src/sf_v2x_com/sf_v2x_com/transmitter.py
+      36      4    370      2      82 detectnet_callback@72-153@/home/af/ros2_ws/src/sf_master/src/sf_v2x_com/sf_v2x_com/transmitter.py
+       5      1     31      1       5 main@155-159@/home/af/ros2_ws/src/sf_master/src/sf_v2x_com/sf_v2x_com/transmitter.py
+1 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+     82      17.0     2.2      166.8         4     /home/af/ros2_ws/src/sf_master/src/sf_v2x_com/sf_v2x_com/transmitter.py
+
+===============================================================================================================
+No thresholds exceeded (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100)
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+        82      17.0     2.2      166.8        4            0      0.00    0.00
