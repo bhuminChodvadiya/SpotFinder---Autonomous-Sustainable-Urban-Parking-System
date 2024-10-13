@@ -1,0 +1,34 @@
+[ 
+    {
+        "id" : 0,
+        "x_coordinte" : 4.5,
+        "y_coordinte" : 5.25,
+        "width" : 0.43,
+        "length" : 0.9,
+        "status" : 0
+    },
+    {
+        "id" : 1,
+        "x_coordinte" : 4.5,
+        "y_coordinte" : 5.75,
+        "width" : 0.43,
+        "length" : 0.9,
+        "status" : 0
+    },
+    {
+        "id" : 2,
+        "x_coordinte" : 4.5,
+        "y_coordinte" : 6.25,
+        "width" : 0.43,
+        "length" : 0.9,
+        "status" : 0
+    },
+    {
+        "id" : 3,
+        "x_coordinte" : 4.5,
+        "y_coordinte" : 6.75,
+        "width" : 0.43,
+        "length" : 0.9,
+        "status" : 0
+    }
+]

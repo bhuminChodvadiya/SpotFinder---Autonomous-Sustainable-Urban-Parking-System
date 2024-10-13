@@ -1,0 +1,48 @@
+Pylint:
+
+************* Module sf_v2x_server.sf_cam_server
+sf_v2x_server/sf_cam_server.py:45:0: C0301: Line too long (114/100) (line-too-long)
+sf_v2x_server/sf_cam_server.py:68:0: C0301: Line too long (146/100) (line-too-long)
+************* Module sf_v2x_server.sf_v2x_server
+sf_v2x_server/sf_v2x_server.py:39:0: C0301: Line too long (119/100) (line-too-long)
+sf_v2x_server/sf_v2x_server.py:80:0: C0301: Line too long (126/100) (line-too-long)
+sf_v2x_server/sf_v2x_server.py:84:0: C0301: Line too long (108/100) (line-too-long)
+sf_v2x_server/sf_v2x_server.py:91:68: C0303: Trailing whitespace (trailing-whitespace)
+sf_v2x_server/sf_v2x_server.py:98:0: C0301: Line too long (106/100) (line-too-long)
+sf_v2x_server/sf_v2x_server.py:99:0: C0301: Line too long (103/100) (line-too-long)
+sf_v2x_server/sf_v2x_server.py:100:0: C0301: Line too long (102/100) (line-too-long)
+sf_v2x_server/sf_v2x_server.py:39:26: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+sf_v2x_server/sf_v2x_server.py:39:26: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+sf_v2x_server/sf_v2x_server.py:99:26: R1716: Simplify chained comparison between the operands (chained-comparison)
+sf_v2x_server/sf_v2x_server.py:100:25: R1716: Simplify chained comparison between the operands (chained-comparison)
+
+------------------------------------------------------------------
+Your code has been rated at 9.04/10 (previous run: 9.04/10, +0.00)
+
+PyLizard:
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+       8      1     69      1      16 __init__@14-29@.\sf_v2x_server\sf_cam_server.py
+      21      3    234      2      41 vehicle_position_callback@31-71@.\sf_v2x_server\sf_cam_server.py
+       5      1     32      1       8 main@73-80@.\sf_v2x_server\sf_cam_server.py
+      16      1    123      1      31 __init__@20-50@.\sf_v2x_server\sf_v2x_server.py
+      39      9    365      1      68 parking_spot_callback@53-120@.\sf_v2x_server\sf_v2x_server.py 
+       2      1     15      2       5 rigid_bodies_callback@122-126@.\sf_v2x_server\sf_v2x_server.py
+       8      4     55      2      15 check_if_booked@128-142@.\sf_v2x_server\sf_v2x_server.py
+      18      5    143      3      27 book_parking_spot@144-170@.\sf_v2x_server\sf_v2x_server.py
+       5      1     32      1       8 main@172-179@.\sf_v2x_server\sf_v2x_server.py
+3 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+     47      11.3     1.7      111.7         3     .\sf_v2x_server\sf_cam_server.py
+    104      14.7     3.5      122.2         6     .\sf_v2x_server\sf_v2x_server.py
+      0       0.0     0.0        0.0         0     .\sf_v2x_server\__init__.py
+
+===============================================================================================================
+No thresholds exceeded (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100)
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+       151      13.6     2.9      118.7        9            0      0.00    0.00
