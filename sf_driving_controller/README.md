@@ -1,9 +1,4 @@
 # Component Description
-| Author | Responsible |
-|--------|-------------|
-| `Rakshit shetty`   | Pure Pursuit Controller  |
-| `Sandip Vasoya`    | Parking Maneuver         |
-| `Suraj Yadav`      | Driving Controller       |
 
 ## Overview
 
