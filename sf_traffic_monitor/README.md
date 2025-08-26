@@ -1,7 +1,5 @@
 # Component Description
 
-`Suraj Yadav`
-
 ## Overview
 
 Retrieve traffic data, including density and flow, through the Vehicle-to-Everything (V2X) Interface. Process the acquired data and generate outputs for analysis. This involves gathering real-time information on traffic conditions, analysing vehicle density, and assessing traffic flow to provide valuable insights for transportation management and planning.
