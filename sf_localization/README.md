@@ -1,6 +1,5 @@
 # Component Description
 
-`Yash Mathukiya`
 
 ## Overview
 
