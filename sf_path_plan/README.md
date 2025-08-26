@@ -1,6 +1,5 @@
 # Component Description
 
-`Yash Mathukiya: Path Planning & Bhumin Chodvadiya: A* Algorithm`
 
 ## Overview
 ### Path Planning
