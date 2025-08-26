@@ -1,6 +1,5 @@
 # Component Description
 
-`Felix Ebert`
 
 ## Overview
 This component is responsible for creating a comprehensive and
