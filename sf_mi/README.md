@@ -2,7 +2,6 @@
 
 ## Component Description
 
-`Parth shah`
 
 ### Overview
 
