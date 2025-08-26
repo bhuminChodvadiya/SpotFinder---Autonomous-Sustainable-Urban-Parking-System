@@ -1,6 +1,5 @@
 # Component Description
 
-`Bhumin Chodvadiya`
 
 ## Overview
 
