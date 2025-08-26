@@ -1,6 +1,5 @@
 # Component Description
 
-`Haaris Khan` 
 
 # Overview
 The SpotFinder User Interface is a ROS (Robot Operating System) node designed to facilitate the selection of a parking spot among available options. It provides a graphical user interface (GUI) using PySimpleGUI, allowing users to interactively choose a parking spot based on their preferences. 
