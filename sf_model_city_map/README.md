@@ -1,6 +1,5 @@
 # Component Description
 
-`Om Rajhans`
 
 ## Overview
 
