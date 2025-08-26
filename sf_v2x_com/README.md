@@ -1,6 +1,6 @@
 # Component Description
 
-`Author: Rakshith Kumar Shetty`
+
 
 ## Overview
 
